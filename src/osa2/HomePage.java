@@ -22,8 +22,8 @@ public class HomePage extends HttpServlet {
 			session.setAttribute("attribute", attribute);
 		}
 		
-		response.getWriter().println("Hello" + "<br>");
-		response.getWriter().println("Your session ID is " + session.getId() + "<br>");
+		response.getWriter().println("Hello");
+		response.getWriter().println("Your session ID is " + session.getId());
 		response.getWriter().println("Session attribute is " + session.getAttribute("attribute"));
 	}
 }
