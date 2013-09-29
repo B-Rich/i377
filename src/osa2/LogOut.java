@@ -17,7 +17,7 @@ public class LogOut extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		session.invalidate();
-		response.getWriter().println("You are successfully logged out");
+		response.getWriter().println("You have successfully logged out");
 }
 
 }
