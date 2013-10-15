@@ -16,9 +16,9 @@ public class Search extends HttpServlet {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
-		if (isDelete(request)) {
+		if (isDeleted(request)) {
 
-			delete(request);
+			deleted(request);
 		}
 		setSearchResults(request);
 		request.getRequestDispatcher("WEB-INF/jsp/search.jsp").forward(request,
@@ -47,7 +47,7 @@ public class Search extends HttpServlet {
 		}
 	}
 
-	private void delete(HttpServletRequest request) {
+	private void deleted(HttpServletRequest request) {
 		int id = Integer.parseInt(request.getParameter("id"));
 
 		try {
@@ -57,7 +57,7 @@ public class Search extends HttpServlet {
 		}
 	}
 
-	private boolean isDelete(HttpServletRequest request) {
+	private boolean isDeleted(HttpServletRequest request) {
 		return request.getParameter("do") != null
 				&& request.getParameter("id") != null
 				&& request.getParameter("do").equals("delete");
