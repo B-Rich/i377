@@ -3,7 +3,8 @@ package db;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import db.Item;
+
+import model.Item;
 
 public class Dao extends AbstractDao {
 

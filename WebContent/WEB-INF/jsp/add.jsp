@@ -16,7 +16,7 @@
 		
 		<div class="divider"></div>
 		
-		<div class="col-lg-4">
+		<div id="formTable" class="col-lg-4">
 			<form action="Add" method="post">
 				<div class="form-group">
 					<label>Nimi</label> <input type="text" class="form-control"
