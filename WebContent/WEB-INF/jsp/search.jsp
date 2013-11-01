@@ -20,7 +20,7 @@
 					<input class="form-control" id="searchStringBox" value=""
 						name="searchString" />
 				</div>
-				<button type="submit" class="btn btn-default" value="Filtreeri">Filtreeri</button>
+				<button id="filterButton" type="submit" class="btn btn-default" value="Filtreeri">Filtreeri</button>
 			</form>
 		</div>
 		<br> <br>

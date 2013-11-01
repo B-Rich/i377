@@ -26,7 +26,7 @@
 					<label>Kood</label> <input type="text" class="form-control"
 						name="code">
 				</div>
-				<button type="submit" class="btn btn-default" value="Lisa">Lisa</button>
+				<button id="addButton" type="submit" class="btn btn-default" value="Lisa">Lisa</button>
 			</form>
 		</div>
 	</div>
