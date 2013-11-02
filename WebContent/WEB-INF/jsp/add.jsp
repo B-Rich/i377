@@ -19,11 +19,11 @@
 		<div id="formTable" class="col-lg-4">
 			<form action="Add" method="post">
 				<div class="form-group">
-					<label>Nimi</label> <input type="text" class="form-control"
+					<label>Nimi</label> <input type="text" id="nameBox" class="form-control"
 						name="name">
 				</div>
 				<div class="form-group">
-					<label>Kood</label> <input type="text" class="form-control"
+					<label>Kood</label> <input type="text" id="codeBox" class="form-control"
 						name="code">
 				</div>
 				<button id="addButton" type="submit" class="btn btn-default" value="Lisa">Lisa</button>
